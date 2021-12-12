@@ -9,17 +9,17 @@
 ---
 
 ## 2장 객체 생성과 파괴
-* [아이템 1: 생성자 대신 정적 팩터리 메서드를 고려하라](\src\main\java\item01)
-* [아이템 2: 생성자에 매개변수가 많다면 빌더를 고려하라](\src\main\java\item02)
-* [아이템 3: Private 생성자나 열거 타입으로 싱글턴임을 보증하라](\src\main\java\item03)
-* [아이템 4: 인스턴스화를 막으려거든 private 생성자를 사용하라](\src\main\java\item04)
-* [아이템 5: 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](\src\main\java\item05)
-* [아이템 6: 불필요한 객체 생성을 피하라](\src\main\java\item06)
-* [아이템 7: 다 쓴 객체 참조를 해제하라](\src\main\java\item07)
-* [아이템 8: finalizer와 cleaner 사용을 피하라](\src\main\java\item08)
+* [아이템 1: 생성자 대신 정적 팩터리 메서드를 고려하라](/src/main/java/item01)
+* [아이템 2: 생성자에 매개변수가 많다면 빌더를 고려하라](/src/main/java/item02)
+* [아이템 3: Private 생성자나 열거 타입으로 싱글턴임을 보증하라](/src/main/java/item03)
+* [아이템 4: 인스턴스화를 막으려거든 private 생성자를 사용하라](/src/main/java/item04)
+* [아이템 5: 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](/src/main/java/item05)
+* [아이템 6: 불필요한 객체 생성을 피하라](/src/main/java/item06)
+* [아이템 7: 다 쓴 객체 참조를 해제하라](/src/main/java/item07)
+* [아이템 8: finalizer와 cleaner 사용을 피하라](/src/main/java/item08)
 
 ## 3장 모든 객체의 공통 메서드
-* [아이템 14: Comparable을 구현할지 고려하라](\src\main\java\item14)
+* [아이템 14: Comparable을 구현할지 고려하라](/src/main/java/item14)
 
 ## 4장 클래스와 인터페이스
-* [아이템 24: 멤버 클래스는 되도록 static으로 만들라](\src\main\java\item24)
+* [아이템 24: 멤버 클래스는 되도록 static으로 만들라](/src/main/java/item24)
