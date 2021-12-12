@@ -1,0 +1,25 @@
+package item02;
+
+import java.util.EnumSet;
+
+public abstract class Pizaa {
+	public enum Toppins{
+		HAM, MUSHROOM, ONION
+	}
+	
+	final EnumSet<Toppings> toppings;
+	
+	abstract static class Builder<extends Builder<T>>{//자기자신의 하위타입을 받는 빌더. 재귀적인 타입 매개변수라고도 함.
+        EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
+        public T addTopping(Topping topping) {
+            toppings.add(Objects.requireNonNull(topping));
+            return self();
+        }
+
+        abstract Pizza build();
+
+        // 하위 클래스는 이 메서드를 재정의(overriding)하여
+        // "this"를 반환하도록 해야 한다.
+        protected abstract T self();
+	} 
+}

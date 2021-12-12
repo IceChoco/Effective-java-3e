@@ -1,0 +1,37 @@
+package singleton.before;
+
+public class Settings {
+
+//	private static boolean darkMode = false;
+//	private static int fontSize = 13;
+//
+//	// 정적 팩토리 메소드
+//	public static boolean getDarkMode() {
+//		return darkMode;
+//	}
+//
+//	public static int getFontSize() {
+//		return fontSize;
+//	}
+
+	private  boolean darkMode = false;
+	private  int fontSize = 13;
+
+	// 정적 팩토리 메소드
+	public  boolean getDarkMode() {
+		return darkMode;
+	}
+
+	public  int getFontSize() {
+		return fontSize;
+	}
+	
+	public void setDarkMode(boolean _darkMode) {
+		darkMode = _darkMode;
+	}
+
+	public void setFontsize(int _fontSize) {
+		fontSize = _fontSize;
+	}
+
+}

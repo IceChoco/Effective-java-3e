@@ -1,0 +1,9 @@
+package singleton.before;
+
+public class SecondPage {
+	private Settings settings = Settings.getSettings();
+	
+	public void printSettings(){
+		System.out.println(settings.getDarkMode()+" "+settings.getFontSize());//그 내용들을 출력함
+	}
+}

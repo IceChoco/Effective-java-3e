@@ -1,0 +1,12 @@
+package singleton.before;
+
+public class FirstPage {
+	private Settings settings = Settings.getSettings();
+	
+	public void setAndPrintSetting(){
+		settings.setDarkMode(true); //settings 객체의 설정들을 변경
+		settings.setFontsize(15);
+		
+		System.out.println(settings.getDarkMode()+" "+settings.getFontSize());//그 내용들을 출력함
+	}
+}

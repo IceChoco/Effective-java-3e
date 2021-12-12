@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="item02.NyPizza.Builder"/>
+    <fullyQualifiedTypeName name="item02.NyPizza.Size"/>
+    <fullyQualifiedTypeName name="item02.Pizza"/>
+    <fullyQualifiedTypeName name="item02.Calzone.Builder"/>
+    <fullyQualifiedTypeName name="item02.Pizza.Topping"/>
+</qualifiedTypeNameHistroy>

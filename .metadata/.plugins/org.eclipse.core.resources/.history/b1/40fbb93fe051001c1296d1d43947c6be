@@ -1,0 +1,15 @@
+package item02;
+
+import java.util.EnumSet;
+
+public abstract class Pizaa {
+	public enum Toppins{
+		HAM, MUSHROOM, ONION
+	}
+	
+	final EnumSet<Toppings> toppings;
+	
+	abstract static class Builder<extends Builder<T>>{//자기자신의 하위타입을 받는 빌더. 재귀적인 타입 매개변수라고도 함.
+		
+	} 
+}

@@ -1,0 +1,11 @@
+package item02;
+
+import java.util.EnumSet;
+
+public abstract class Pizaa {
+	public enum Toppins{
+		HAM, MUSHROOM, ONION
+	}
+	
+	final EnumSet<Toppings> toppings;
+}

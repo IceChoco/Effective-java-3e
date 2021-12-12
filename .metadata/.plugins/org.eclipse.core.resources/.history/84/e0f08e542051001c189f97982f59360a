@@ -1,0 +1,28 @@
+package singleton.before;
+
+public class Settings {
+
+	private Settings() {};//private: Settings 클래스에서만 사용 가능. 외부 클래스에서 사용하려고 하면 에러 발생.
+	private static Settings settings = null;//자기 자신인 Settings 타입의 객체를 static으로 생성
+
+	// 정적 팩토리 메소드
+	public static boolean getDarkMode(){//public: 누구든지 이 클래스의 메소드를 호출 가능
+		return darkMode;
+	}
+
+	public static int getFontSize() {
+		return fontSize;
+	}
+	
+	private static boolean darkMode = false;
+	private static int fontSize = 13;
+	
+	public void setDarkMode(boolean _darkMode) {
+		darkMode = _darkMode;
+	}
+
+	public void setFontsize(int _fontSize) {
+		fontSize = _fontSize;
+	}
+
+}

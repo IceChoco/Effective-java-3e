@@ -1,0 +1,7 @@
+package item02;
+
+public class NyPizza extends Pizza {
+	NyPizza(Builder<?> builder){//NyPizza를 만드는 생성자
+		super(builder);
+	}
+}

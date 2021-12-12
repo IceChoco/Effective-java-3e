@@ -1,0 +1,33 @@
+package item02;
+
+public class NutritionFacts {
+	private int servingSize;
+	private int sodium;
+	private int carbohydrate;
+	private int servings;
+	
+	public NutritionFacts() {
+	}
+
+	
+	public void setServingSize(int servingSize) {
+		this.servingSize = servingSize;
+	}
+	
+	public void setSodium(int sodium) {
+		this.sodium = sodium;
+	}
+	
+	public void setCarbohydrate(int carbohydrate) {
+		this.carbohydrate = carbohydrate;
+	}
+	
+	public void setServings(int servings) {
+		this.servings = servings;
+	}
+	
+	public static void main(String[] args) {
+		//NutritionFacts nutiritionFacts = new NutritionFacts(1,6,10,20);
+	}
+	
+}
