@@ -6,16 +6,20 @@ public class AnonymousExample3 {
 
     static double operate() {//정적 문맥
         Operator3 operator = new Operator3() {//구현 인터페이스 이름
-            static final double A = 0;
-            // 자바 8부터는 정적멤버가 static이 아니여도 컴파일에러 발생 X. 그러나 값을 변경할 순 없어서 의미적으로는 여전히 상수여야 한다.
-            static double B = 0;
+            static final double a = 0;
+            //static double b = 0; //컴파일에러 발생. 자바 16부터는 에러 발생 X
             @Override
             public double plus() {
-                //바깥 인스턴스 x, y 참조 불가
-                return A;
+                //return x; //바깥 인스턴스 x, y 참조 불가
+                return a;
             }
         };
         return operator.plus();
+    }
+
+    public static void main(String[] args) {
+        AnonymousExample3 a = new AnonymousExample3();
+        System.out.println(a.operate());
     }
 }
 
