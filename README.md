@@ -18,9 +18,12 @@
 * [아이템 7: 다 쓴 객체 참조를 해제하라](/src/main/java/item07)
 * [아이템 8: finalizer와 cleaner 사용을 피하라](/src/main/java/item08)
 * [아이템 9: try-finally 보다는 try-with-resources를 사용하라](/src/main/java/item09)
-* [아이템 10: equals는 일반 규약을 지켜 재정의하라](/src/main/java/item10)
 
 ## 3장 모든 객체의 공통 메서드
+* [아이템 10: equals는 일반 규약을 지켜 재정의하라](/src/main/java/item10)
+* [아이템 11: equals를 재정의하려거든 hashcode도 재정의하라](/src/main/java/item11)
+* [아이템 12: toString을 항상 재정의하라](/src/main/java/item12)
+* [아이템 13: clone 재정의는 주의해서 진행하라](/src/main/java/item13)
 * [아이템 14: Comparable을 구현할지 고려하라](/src/main/java/item14)
 
 ## 4장 클래스와 인터페이스

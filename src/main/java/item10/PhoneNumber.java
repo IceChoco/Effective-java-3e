@@ -21,4 +21,12 @@ public final class PhoneNumber {
         return pn.lineNum == lineNum && pn.prefix == prefix
                 && pn.areaCode == areaCode; // 4 핵심 필드들이 일치하는지 검사
     }
+
+    public static void main(String[] args) {
+        int a = 1;
+        while(a<= 25)
+            a *= 3;
+        System.out.println(a);
+
+    }
 }
