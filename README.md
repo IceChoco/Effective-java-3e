@@ -29,4 +29,5 @@
 ## 4장 클래스와 인터페이스
 * [아이템 16: public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](/src/main/java/item16)
 * [아이템 17: 클래스의 변경가능성을 최소화하라](/src/main/java/item17)
+* [아이템 18: 상속보다는 컴포지션을 사용하라](/src/main/java/item18)
 * [아이템 24: 멤버 클래스는 되도록 static으로 만들라](/src/main/java/item24)
