@@ -30,4 +30,13 @@
 * [아이템 16: public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](/src/main/java/item16)
 * [아이템 17: 클래스의 변경가능성을 최소화하라](/src/main/java/item17)
 * [아이템 18: 상속보다는 컴포지션을 사용하라](/src/main/java/item18)
+* [아이템 19: 상속을 고려한 설계 주의 사항과 문서화](/src/main/java/item19)
+* [아이템 21: 인터페이스는 구현하는 쪽을 생각해 설계하라](/src/main/java/item21)
+* [아이템 22: 인터페이스는 타입을 정의하는 용도로만 사용하라](/src/main/java/item22)
+* [아이템 23: 태그 달린 클래스보다는 클래스 계층구조를 활용하라](/src/main/java/item23)
 * [아이템 24: 멤버 클래스는 되도록 static으로 만들라](/src/main/java/item24)
+* [아이템 25: 톱레벨 클래스는 한 파일에 하나만 담으라](/src/main/java/item25)
+
+## 5장 제너릭
+* [아이템 26: 로 타입은 사용하지 말라](/src/main/java/item26)
+

@@ -12,4 +12,11 @@ public class SomeService {
     void perform(){
         System.out.println("Service is being performed");
     }
+
+    public static void main(String[] args) {
+        SomeService service = new SomeService();
+        WrapperObject wrapperObject= new WrapperObject(service);
+        Wrapeer wrapeer = new Wrapeer(wrapperObject);
+        wrapeer.doSomething();
+    }
 }

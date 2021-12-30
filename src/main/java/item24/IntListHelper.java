@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface IntListHelper {
 
-    static List<Integer> intArrayAsList(int[] a) {
+    private static List<Integer> intArrayAsList(int[] a) {
         return new AbstractList<Integer>() {
             @Override
             public Integer get(int index) {
