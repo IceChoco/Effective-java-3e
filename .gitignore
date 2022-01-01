@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
+out
+gen
+build
+rebel.xml
+
+# specific sources
+src/main/java/item01/service_provide_Framework_exam/

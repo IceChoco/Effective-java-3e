@@ -1,6 +1,7 @@
 package item26;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -41,7 +42,16 @@ public class GenericTest {
 
     //잘못된 예 : 모르는 타입의 원소도 받는 로타입 사용
     //2개의 집합(Set)을 받아 공통 원소의 수를 반환하는 메서드
-    static int numElementsInCommon(Set s1,Set s2){
+//    static int numElementsInCommon(Set s1,Set s2){
+//        int result = 0;
+//        for (Object o1 : s1)
+//            if(s2.contains(o1))
+//                result++;
+//        return result;
+//    }
+
+    //좋은 예: 비한정적 와일드 타입 사용
+    static int numElementsInCommon(Set<?> s1,Set<?> s2){
         int result = 0;
         for (Object o1 : s1)
             if(s2.contains(o1))
