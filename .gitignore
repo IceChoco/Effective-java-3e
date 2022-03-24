@@ -8,4 +8,5 @@ build
 rebel.xml
 
 # specific sources
+target/
 src/main/java/chapter2/item01/service_provide_Framework_exam/
